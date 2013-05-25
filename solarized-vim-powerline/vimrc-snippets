@@ -1,0 +1,6 @@
+set background=dark
+if (&background == 'light')
+  let g:Powerline_colorscheme='solarizedLightLC'
+else
+  let g:Powerline_colorscheme='solarizedDarkLC'
+endif
